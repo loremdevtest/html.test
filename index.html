@@ -45,7 +45,7 @@
     </style>
     <script>
         function getInitialTheme() {
-            const savedTheme = localStorage.getItem('theme') || 'dark';
+            const savedTheme = localStorage.getItem('theme') || 'light';
             if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
             return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
@@ -451,8 +451,8 @@
     import {preInitTree} from 'https://loremdevtest.github.io/html.test/_lib/pre.js';
     preInitTree();
     await initPage();
-    await initTheme('dark');
-    await initSearch('https://loremdevtest.github.io/html.test', '1743937604625');
+    await initTheme('light');
+    await initSearch('https://loremdevtest.github.io/html.test', '1744033972522');
     document.documentElement.style.visibility = 'visible';
     document.documentElement.style.opacity = '1';
     initToc();
