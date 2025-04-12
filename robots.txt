@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://loremdevtest.github.io/html.test/sitemap_index.xml
