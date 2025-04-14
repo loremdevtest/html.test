@@ -30,7 +30,7 @@
     </style>
     <script>
         function getInitialTheme() {
-            const savedTheme = localStorage.getItem('theme') || 'light';
+            const savedTheme = localStorage.getItem('theme') || 'system';
             if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
             return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
@@ -231,8 +231,8 @@ So that's why html.org.in will be free for all forever 💖</span>
     import {preInitTree} from 'https://loremdevtest.github.io/html.test/_lib/pre.js';
     preInitTree();
     await initPage();
-    await initTheme('light');
-    await initSearch('https://loremdevtest.github.io/html.test', '1744475881289');
+    await initTheme('system');
+    await initSearch('https://loremdevtest.github.io/html.test', '1744613059104');
     document.documentElement.style.visibility = 'visible';
     document.documentElement.style.opacity = '1';
     initToc();
