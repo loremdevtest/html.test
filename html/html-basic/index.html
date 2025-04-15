@@ -45,7 +45,7 @@
     </style>
     <script>
         function getInitialTheme() {
-            const savedTheme = localStorage.getItem('theme') || 'system';
+            const savedTheme = localStorage.getItem('theme') || 'light';
             if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
             return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
@@ -278,6 +278,28 @@
                                             class="leaf"
                                         >
                                             <a href="/html.test/html/html-links/">HTML Links</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="Q_o0wCKTDEAOWqFxWyALc" 
+                                            style="--indent-level: 0"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/html.test/html/html-graphics/">HTML Graphics</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="TEEBdzDAS175F5cyLB-50" 
+                                            style="--indent-level: 0"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/html.test/html/html-classes/">HTML Classes</a>
                                         </sl-tree-item>                                        
                                     
                                 
@@ -568,6 +590,28 @@
                                         </sl-tree-item>                                        
                                     
                                 
+                                    
+                                        <sl-tree-item 
+                                            id="Q_o0wCKTDEAOWqFxWyALc" 
+                                            style="--indent-level: 0"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/html.test/html/html-graphics/">HTML Graphics</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="TEEBdzDAS175F5cyLB-50" 
+                                            style="--indent-level: 0"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/html.test/html/html-classes/">HTML Classes</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
                             
                                 </sl-tree>
                             
@@ -756,8 +800,8 @@ So that's why html.org.in will be free for all forever 💖</span>
     import {preInitTree} from 'https://loremdevtest.github.io/html.test/_lib/pre.js';
     preInitTree();
     await initPage();
-    await initTheme('system');
-    await initSearch('https://loremdevtest.github.io/html.test', '1744613059104');
+    await initTheme('light');
+    await initSearch('https://loremdevtest.github.io/html.test', '1744707561875');
     document.documentElement.style.visibility = 'visible';
     document.documentElement.style.opacity = '1';
     initToc();
