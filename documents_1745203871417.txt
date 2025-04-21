@@ -87,7 +87,7 @@
         "title": "HTML iframe",
         "text": "HTML iframe An HTML iframe is used to display a web page within a web page. How does it work? 🤔 In order to use this, we need to know something. This is inline frame An inline frame is used to embed another document within the current HTML document. Syntex HTML < iframe src = \"url\"  title = \"description\" >< /iframe > Tips:  It is a good practice to always include a title attribute for the <iframe>. This is used by screen readers to read out what the content of the iframe is. Iframe - Set Height and Width Use the height and width attributes to specify the size of the iframe. Or you can add the style attribute too. HTML < iframe src = \"url.htm\"  style = \"height:200px;width:300px;\"  title = \"Iframe Example\" >< /iframe > That's all for this lesson, see you next one."
     },
-    "/html.test/html/html_js/": {
+    "/html.test/html/html-js/": {
         "title": "JavaScript in HTML",
         "text": "JavaScript in HTML 📌 JavaScript makes HTML pages more dynamic and interactive. Learn with joy :) HTML  <script>  Tag The HTML <script> tag is used to define a client-side script (JavaScript). The  <script>  element either contains script statements, or it points to an external script filethrough the src attribute. Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content. To select an HTML element, JavaScript most often uses the  document.getElementById()  method. This JavaScript example writes \"Hello World!\" into an HTML element with id=\"world\": Example That's all for this lesson, see you next one."
     },
